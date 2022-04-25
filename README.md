@@ -1,6 +1,5 @@
-#### Please note that commits with username "EyitopeIO" and "adelowoe" refer to the same individual
 
-## 1 - Embedded System Proposal
+## Description
 The system described by this repository is a temperature driven motor controller which is to be configurable by touch. The relationship between motor speed and temperature may be defined by a transfer function, derived from heat equations, or just a linear function.
 
 For the purpose of this project, a linear mapping/ranging is used to convert a temperature range to the appropriate duty cycle to drive the motor.
@@ -11,7 +10,7 @@ The lowest and highest duty cycle for the motor: 0 and 100 percent.
 
 The motor was driven at a constant 120Hz PWM frequency. Speed was varied by adjusting the duty cycle.
 
-## 2 - Hardware Design
+## 2 - Hardware
 ![Circuit diagram](assets/cem7058.bmp)
 
 Please find information about the STM32- pins used above [here](https://os.mbed.com/platforms/ST-Discovery-F469NI/).
@@ -24,7 +23,7 @@ The temperature sensor datasheet can be found [here](https://www.microchip.com/e
 * 2 × NPN transistor 
 * 3 × 1k resistors
 
-## 3 - Embedded Code Implementation and Architecture
+## 3 - Software
 ![Code overview](assets/ApplicationStructure.jpg)
 
 ### Threads
