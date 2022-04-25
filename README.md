@@ -1,6 +1,8 @@
 
 ## Description
-The system described by this repository is a temperature driven motor controller which is to be configurable by touch. The relationship between motor speed and temperature may be defined by a transfer function, derived from heat equations, or just a linear function.
+This project is a submission elsewhere to demonstrate my understanding of STM and MbedOS.
+
+The system described by this repository is a temperature-driven motor controller which is to be configurable by touch. The relationship between motor speed and temperature may be defined by a transfer function, derived from heat equations, or just a linear function.
 
 For the purpose of this project, a linear mapping/ranging is used to convert a temperature range to the appropriate duty cycle to drive the motor.
 
